@@ -5,6 +5,7 @@ library(ggplot2)
 library(dplyr)
 library(shinythemes)
 library(pROC)
+library(shinydashboard)
 options(warn=-1)#stop the pesky warnings of caret while training the model
 
 stroke_data <- read.csv("healthcare-dataset-stroke-data.csv", 
